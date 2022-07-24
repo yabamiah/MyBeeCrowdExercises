@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+  int casos, qtd, nota;
+  float porcent;
+
+  scanf("%d", &casos);
+
+  while (casos--)
+  {
+	 scanf("%d", &qtd);
+	 
+	 while (qtd--)
+	 {
+		scanf("%d", &nota);
+
+		if (nota > 70) {
+		   porcent += (float)nota;
+		}
+		printf("%.3f\n", porcent/qtd);
+	 }  
+	}
+
+  return 0;
+}

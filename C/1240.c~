@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+  int casos, len1, len2;
+  char num1[255], num2[255], ult1, ult2;
+
+  scanf("%d", &casos);
+
+  while(casos)
+  {
+	 scanf("%s %s", num1, num2);
+
+	 len1 = strlen(num1);
+	 len2 = strlen(num2);
+
+	 ult1 = num1[len1];
+	 ult2 = num2[len2];
+
+	 printf("Ultimo1: %d Ultimo2: %d\n", ult1, ult2);
+	 
+	 casos--;
+  }
+
+  return 0;
+}

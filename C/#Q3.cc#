@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main()
+{
+  std::string lojas[8] = {l1, l2, l3, l4, l5, l6, l7, l8};
+  std::string produt[4] = {p1, p2, p3, p4};
+  std::string matriz[8][4] = { {}, {}, {}, {}, {}, {}, {}, {} };
+  
+  
+  return 0;
+}
